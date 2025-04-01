@@ -1,0 +1,30 @@
+.box {
+  width: 500px;
+  height: 540px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.item-img {
+  width: 400px;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main * {
+  margin: 10px;
+}
+
+.game-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game-button button {
+  margin: 0 5px 20px 5px;
+}
