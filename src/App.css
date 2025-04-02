@@ -1,6 +1,6 @@
 .box {
   width: 500px;
-  height: 540px;
+  height: 600px;
   border: 1px solid black;
   text-align: center;
 }
@@ -27,4 +27,30 @@
 
 .game-button button {
   margin: 0 5px 20px 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 4px;
 }
+
+.game-button button:hover {
+  background-color: gray;
+}
+
+.Win {
+  border: 10px solid green;
+  color: green;
+}
+
+.Lose {
+  border: 10px solid red;
+  color: red;
+}
+
+.Tie {
+  border: 10px solid black;
+  color: black;
+}
+
